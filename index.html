@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BoardMaker</title>
+<!-- Importing the three.min.js library for our 3D graphics  -->
+<script src="/three.min.js"></script>
+</head>
+<body>
+	<!-- Creating a container to hold all our stuff in -->
+	<div id="container">
+		<!-- This is where our 3D display will go -->
+		<div id="boarddisplay">
+			
+		</div>
+		<!-- Here is where the controls, options, and inputs would go. For example the size of the board. -->
+		<div id="controls">
+			<form>
+				<input type="radio" name="boardsize" value="Regular Board">Regular Board<br>
+				<input type="radio" name="boardsize" value="Expansion Set">Expansion Set
+			</form>
+			<!-- The button that will generate the board. -->
+			<button type="button" id="generate" value="Generate"></button>
+		</div>
+	</div>
+
+</body>
+</html>
